@@ -1,1 +1,3 @@
-# takoyaki-meguri
+# たこやきめぐり
+
+![](game\images\title.png)
