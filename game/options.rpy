@@ -63,7 +63,7 @@ define config.has_voice = True
 ## されます。このファイルは、停止するか他の音楽が再生されない限りゲーム中で流れ
 ## 続けます。
 
-# define config.main_menu_music = "main-menu-theme.ogg"
+define config.main_menu_music = "ソーダフロートドライバー.mp3"
 
 
 ## トランジション #####################################################################
