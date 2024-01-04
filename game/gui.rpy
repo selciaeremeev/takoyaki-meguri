@@ -21,6 +21,13 @@ define config.check_conflicting_properties = True
 ## GUI 設定変数
 ################################################################################
 
+style ruby_style is default:
+    size 12
+    yoffset -30
+
+style say_dialogue:
+    line_leading 12
+    ruby_style style.ruby_style
 
 ## カラー #########################################################################
 ##
@@ -63,16 +70,16 @@ define gui.interface_text_color = '#404040'
 ## フォントとフォントサイズ ################################################################
 
 ## ゲーム内の台詞や選択肢に使われるフォント。
-define gui.text_font = "SourceHanSansLite.ttf"
+define gui.text_font = "SourceHanSans-Bold.otf"
 
 ## キャラクターの名前に使われるフォント。
-define gui.name_text_font = "SourceHanSansLite.ttf"
+define gui.name_text_font = "SourceHanSans-Bold.otf"
 
 ## ゲームメニューなどのインターフェースに使われるテキストのフォント。
-define gui.interface_text_font = "SourceHanSansLite.ttf"
+define gui.interface_text_font = "SourceHanSans-Bold.otf"
 
 ## 一般的な台詞のテキストサイズ。
-define gui.text_size = 33
+define gui.text_size = 28
 
 ## キャラクターの名前のテキストサイズ。
 define gui.name_text_size = 45
